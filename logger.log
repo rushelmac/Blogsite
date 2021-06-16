@@ -1,0 +1,1048 @@
+[31merror[39m: [CreateMappingConfig] uncaughtException: Cannot find module 'similarity-score'
+Require stack:
+- F:\Learning\Video Material\The Web Developer Bootcamp\` Web codes\Back-End\Blogsite\app.js 
+{
+  date: [32m'Wed Dec 23 2020 20:35:34 GMT+0530 (India Standard Time)'[39m,
+  process: {
+    pid: [33m7108[39m,
+    uid: [1mnull[22m,
+    gid: [1mnull[22m,
+    cwd: [32m'F:\\Learning\\Video Material\\The Web Developer Bootcamp\\` Web codes\\Back-End\\Blogsite'[39m,
+    execPath: [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+    version: [32m'v12.9.0'[39m,
+    argv: [
+      [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+      [32m'F:\\Learning\\Video Material\\The Web Developer Bootcamp\\` Web codes\\Back-End\\Blogsite\\app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m48803840[39m,
+      heapTotal: [33m31625216[39m,
+      heapUsed: [33m16645680[39m,
+      external: [33m19615987[39m
+    }
+  },
+  os: { loadavg: [ [33m0[39m, [33m0[39m, [33m0[39m ], uptime: [33m475281[39m },
+  trace: [
+    {
+      column: [33m15[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module._resolveFilename'[39m,
+      line: [33m772[39m,
+      method: [32m'_resolveFilename'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m27[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module._load'[39m,
+      line: [33m677[39m,
+      method: [32m'_load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m19[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module.require'[39m,
+      line: [33m830[39m,
+      method: [32m'require'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m18[39m,
+      file: [32m'internal/modules/cjs/helpers.js'[39m,
+      function: [32m'require'[39m,
+      line: [33m68[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m23[39m,
+      file: [32m'F:\\Learning\\Video Material\\The Web Developer Bootcamp\\` Web codes\\Back-End\\Blogsite\\app.js'[39m,
+      function: [1mnull[22m,
+      line: [33m119[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m30[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module._compile'[39m,
+      line: [33m936[39m,
+      method: [32m'_compile'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m10[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module._extensions..js'[39m,
+      line: [33m947[39m,
+      method: [32m'.js'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m32[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module.load'[39m,
+      line: [33m790[39m,
+      method: [32m'load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m12[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module._load'[39m,
+      line: [33m703[39m,
+      method: [32m'_load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m10[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module.runMain'[39m,
+      line: [33m999[39m,
+      method: [32m'runMain'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m11[39m,
+      file: [32m'internal/main/run_main_module.js'[39m,
+      function: [1mnull[22m,
+      line: [33m17[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m"Error: Cannot find module 'similarity-score'"[39m,
+    [32m'Require stack:'[39m,
+    [32m'- F:\\Learning\\Video Material\\The Web Developer Bootcamp\\` Web codes\\Back-End\\Blogsite\\app.js'[39m,
+    [32m'    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:772:15)'[39m,
+    [32m'    at Function.Module._load (internal/modules/cjs/loader.js:677:27)'[39m,
+    [32m'    at Module.require (internal/modules/cjs/loader.js:830:19)'[39m,
+    [32m'    at require (internal/modules/cjs/helpers.js:68:18)'[39m,
+    [32m'    at Object.<anonymous> (F:\\Learning\\Video Material\\The Web Developer Bootcamp\\` Web codes\\Back-End\\Blogsite\\app.js:119:23)'[39m,
+    [32m'    at Module._compile (internal/modules/cjs/loader.js:936:30)'[39m,
+    [32m'    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)'[39m,
+    [32m'    at Module.load (internal/modules/cjs/loader.js:790:32)'[39m,
+    [32m'    at Function.Module._load (internal/modules/cjs/loader.js:703:12)'[39m,
+    [32m'    at Function.Module.runMain (internal/modules/cjs/loader.js:999:10)'[39m,
+    [32m'    at internal/main/run_main_module.js:17:11'[39m
+  ]
+}
+[31merror[39m: [ExitHandler] uncaughtException: Cannot find module 'similarity-score'
+Require stack:
+- F:\Learning\Video Material\The Web Developer Bootcamp\` Web codes\Back-End\Blogsite\app.js 
+{
+  date: [32m'Wed Dec 23 2020 20:35:34 GMT+0530 (India Standard Time)'[39m,
+  process: {
+    pid: [33m7108[39m,
+    uid: [1mnull[22m,
+    gid: [1mnull[22m,
+    cwd: [32m'F:\\Learning\\Video Material\\The Web Developer Bootcamp\\` Web codes\\Back-End\\Blogsite'[39m,
+    execPath: [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+    version: [32m'v12.9.0'[39m,
+    argv: [
+      [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+      [32m'F:\\Learning\\Video Material\\The Web Developer Bootcamp\\` Web codes\\Back-End\\Blogsite\\app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m49680384[39m,
+      heapTotal: [33m31625216[39m,
+      heapUsed: [33m17166336[39m,
+      external: [33m19616043[39m
+    }
+  },
+  os: { loadavg: [ [33m0[39m, [33m0[39m, [33m0[39m ], uptime: [33m475281[39m },
+  trace: [
+    {
+      column: [33m15[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module._resolveFilename'[39m,
+      line: [33m772[39m,
+      method: [32m'_resolveFilename'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m27[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module._load'[39m,
+      line: [33m677[39m,
+      method: [32m'_load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m19[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module.require'[39m,
+      line: [33m830[39m,
+      method: [32m'require'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m18[39m,
+      file: [32m'internal/modules/cjs/helpers.js'[39m,
+      function: [32m'require'[39m,
+      line: [33m68[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m23[39m,
+      file: [32m'F:\\Learning\\Video Material\\The Web Developer Bootcamp\\` Web codes\\Back-End\\Blogsite\\app.js'[39m,
+      function: [1mnull[22m,
+      line: [33m119[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m30[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module._compile'[39m,
+      line: [33m936[39m,
+      method: [32m'_compile'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m10[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module._extensions..js'[39m,
+      line: [33m947[39m,
+      method: [32m'.js'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m32[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module.load'[39m,
+      line: [33m790[39m,
+      method: [32m'load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m12[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module._load'[39m,
+      line: [33m703[39m,
+      method: [32m'_load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m10[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module.runMain'[39m,
+      line: [33m999[39m,
+      method: [32m'runMain'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m11[39m,
+      file: [32m'internal/main/run_main_module.js'[39m,
+      function: [1mnull[22m,
+      line: [33m17[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m"Error: Cannot find module 'similarity-score'"[39m,
+    [32m'Require stack:'[39m,
+    [32m'- F:\\Learning\\Video Material\\The Web Developer Bootcamp\\` Web codes\\Back-End\\Blogsite\\app.js'[39m,
+    [32m'    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:772:15)'[39m,
+    [32m'    at Function.Module._load (internal/modules/cjs/loader.js:677:27)'[39m,
+    [32m'    at Module.require (internal/modules/cjs/loader.js:830:19)'[39m,
+    [32m'    at require (internal/modules/cjs/helpers.js:68:18)'[39m,
+    [32m'    at Object.<anonymous> (F:\\Learning\\Video Material\\The Web Developer Bootcamp\\` Web codes\\Back-End\\Blogsite\\app.js:119:23)'[39m,
+    [32m'    at Module._compile (internal/modules/cjs/loader.js:936:30)'[39m,
+    [32m'    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)'[39m,
+    [32m'    at Module.load (internal/modules/cjs/loader.js:790:32)'[39m,
+    [32m'    at Function.Module._load (internal/modules/cjs/loader.js:703:12)'[39m,
+    [32m'    at Function.Module.runMain (internal/modules/cjs/loader.js:999:10)'[39m,
+    [32m'    at internal/main/run_main_module.js:17:11'[39m
+  ]
+}
+[31merror[39m: [SbEvent] uncaughtException: Cannot find module 'similarity-score'
+Require stack:
+- F:\Learning\Video Material\The Web Developer Bootcamp\` Web codes\Back-End\Blogsite\app.js 
+{
+  date: [32m'Wed Dec 23 2020 20:35:34 GMT+0530 (India Standard Time)'[39m,
+  process: {
+    pid: [33m7108[39m,
+    uid: [1mnull[22m,
+    gid: [1mnull[22m,
+    cwd: [32m'F:\\Learning\\Video Material\\The Web Developer Bootcamp\\` Web codes\\Back-End\\Blogsite'[39m,
+    execPath: [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+    version: [32m'v12.9.0'[39m,
+    argv: [
+      [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+      [32m'F:\\Learning\\Video Material\\The Web Developer Bootcamp\\` Web codes\\Back-End\\Blogsite\\app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m49680384[39m,
+      heapTotal: [33m31625216[39m,
+      heapUsed: [33m17034152[39m,
+      external: [33m19616043[39m
+    }
+  },
+  os: { loadavg: [ [33m0[39m, [33m0[39m, [33m0[39m ], uptime: [33m475281[39m },
+  trace: [
+    {
+      column: [33m15[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module._resolveFilename'[39m,
+      line: [33m772[39m,
+      method: [32m'_resolveFilename'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m27[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module._load'[39m,
+      line: [33m677[39m,
+      method: [32m'_load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m19[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module.require'[39m,
+      line: [33m830[39m,
+      method: [32m'require'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m18[39m,
+      file: [32m'internal/modules/cjs/helpers.js'[39m,
+      function: [32m'require'[39m,
+      line: [33m68[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m23[39m,
+      file: [32m'F:\\Learning\\Video Material\\The Web Developer Bootcamp\\` Web codes\\Back-End\\Blogsite\\app.js'[39m,
+      function: [1mnull[22m,
+      line: [33m119[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m30[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module._compile'[39m,
+      line: [33m936[39m,
+      method: [32m'_compile'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m10[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module._extensions..js'[39m,
+      line: [33m947[39m,
+      method: [32m'.js'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m32[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module.load'[39m,
+      line: [33m790[39m,
+      method: [32m'load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m12[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module._load'[39m,
+      line: [33m703[39m,
+      method: [32m'_load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m10[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module.runMain'[39m,
+      line: [33m999[39m,
+      method: [32m'runMain'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m11[39m,
+      file: [32m'internal/main/run_main_module.js'[39m,
+      function: [1mnull[22m,
+      line: [33m17[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m"Error: Cannot find module 'similarity-score'"[39m,
+    [32m'Require stack:'[39m,
+    [32m'- F:\\Learning\\Video Material\\The Web Developer Bootcamp\\` Web codes\\Back-End\\Blogsite\\app.js'[39m,
+    [32m'    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:772:15)'[39m,
+    [32m'    at Function.Module._load (internal/modules/cjs/loader.js:677:27)'[39m,
+    [32m'    at Module.require (internal/modules/cjs/loader.js:830:19)'[39m,
+    [32m'    at require (internal/modules/cjs/helpers.js:68:18)'[39m,
+    [32m'    at Object.<anonymous> (F:\\Learning\\Video Material\\The Web Developer Bootcamp\\` Web codes\\Back-End\\Blogsite\\app.js:119:23)'[39m,
+    [32m'    at Module._compile (internal/modules/cjs/loader.js:936:30)'[39m,
+    [32m'    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)'[39m,
+    [32m'    at Module.load (internal/modules/cjs/loader.js:790:32)'[39m,
+    [32m'    at Function.Module._load (internal/modules/cjs/loader.js:703:12)'[39m,
+    [32m'    at Function.Module.runMain (internal/modules/cjs/loader.js:999:10)'[39m,
+    [32m'    at internal/main/run_main_module.js:17:11'[39m
+  ]
+}
+[31merror[39m: [Helper] uncaughtException: Cannot find module 'similarity-score'
+Require stack:
+- F:\Learning\Video Material\The Web Developer Bootcamp\` Web codes\Back-End\Blogsite\app.js 
+{
+  date: [32m'Wed Dec 23 2020 20:35:34 GMT+0530 (India Standard Time)'[39m,
+  process: {
+    pid: [33m7108[39m,
+    uid: [1mnull[22m,
+    gid: [1mnull[22m,
+    cwd: [32m'F:\\Learning\\Video Material\\The Web Developer Bootcamp\\` Web codes\\Back-End\\Blogsite'[39m,
+    execPath: [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+    version: [32m'v12.9.0'[39m,
+    argv: [
+      [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+      [32m'F:\\Learning\\Video Material\\The Web Developer Bootcamp\\` Web codes\\Back-End\\Blogsite\\app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m49680384[39m,
+      heapTotal: [33m31625216[39m,
+      heapUsed: [33m16895816[39m,
+      external: [33m19616043[39m
+    }
+  },
+  os: { loadavg: [ [33m0[39m, [33m0[39m, [33m0[39m ], uptime: [33m475281[39m },
+  trace: [
+    {
+      column: [33m15[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module._resolveFilename'[39m,
+      line: [33m772[39m,
+      method: [32m'_resolveFilename'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m27[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module._load'[39m,
+      line: [33m677[39m,
+      method: [32m'_load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m19[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module.require'[39m,
+      line: [33m830[39m,
+      method: [32m'require'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m18[39m,
+      file: [32m'internal/modules/cjs/helpers.js'[39m,
+      function: [32m'require'[39m,
+      line: [33m68[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m23[39m,
+      file: [32m'F:\\Learning\\Video Material\\The Web Developer Bootcamp\\` Web codes\\Back-End\\Blogsite\\app.js'[39m,
+      function: [1mnull[22m,
+      line: [33m119[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m30[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module._compile'[39m,
+      line: [33m936[39m,
+      method: [32m'_compile'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m10[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module._extensions..js'[39m,
+      line: [33m947[39m,
+      method: [32m'.js'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m32[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module.load'[39m,
+      line: [33m790[39m,
+      method: [32m'load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m12[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module._load'[39m,
+      line: [33m703[39m,
+      method: [32m'_load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m10[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module.runMain'[39m,
+      line: [33m999[39m,
+      method: [32m'runMain'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m11[39m,
+      file: [32m'internal/main/run_main_module.js'[39m,
+      function: [1mnull[22m,
+      line: [33m17[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m"Error: Cannot find module 'similarity-score'"[39m,
+    [32m'Require stack:'[39m,
+    [32m'- F:\\Learning\\Video Material\\The Web Developer Bootcamp\\` Web codes\\Back-End\\Blogsite\\app.js'[39m,
+    [32m'    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:772:15)'[39m,
+    [32m'    at Function.Module._load (internal/modules/cjs/loader.js:677:27)'[39m,
+    [32m'    at Module.require (internal/modules/cjs/loader.js:830:19)'[39m,
+    [32m'    at require (internal/modules/cjs/helpers.js:68:18)'[39m,
+    [32m'    at Object.<anonymous> (F:\\Learning\\Video Material\\The Web Developer Bootcamp\\` Web codes\\Back-End\\Blogsite\\app.js:119:23)'[39m,
+    [32m'    at Module._compile (internal/modules/cjs/loader.js:936:30)'[39m,
+    [32m'    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)'[39m,
+    [32m'    at Module.load (internal/modules/cjs/loader.js:790:32)'[39m,
+    [32m'    at Function.Module._load (internal/modules/cjs/loader.js:703:12)'[39m,
+    [32m'    at Function.Module.runMain (internal/modules/cjs/loader.js:999:10)'[39m,
+    [32m'    at internal/main/run_main_module.js:17:11'[39m
+  ]
+}
+[31merror[39m: [CreateMappingConfig] uncaughtException: Cannot find module 'similarity-score'
+Require stack:
+- F:\Learning\Video Material\The Web Developer Bootcamp\` Web codes\Back-End\Blogsite\app.js 
+{
+  date: [32m'Wed Dec 23 2020 20:35:40 GMT+0530 (India Standard Time)'[39m,
+  process: {
+    pid: [33m8796[39m,
+    uid: [1mnull[22m,
+    gid: [1mnull[22m,
+    cwd: [32m'F:\\Learning\\Video Material\\The Web Developer Bootcamp\\` Web codes\\Back-End\\Blogsite'[39m,
+    execPath: [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+    version: [32m'v12.9.0'[39m,
+    argv: [
+      [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+      [32m'F:\\Learning\\Video Material\\The Web Developer Bootcamp\\` Web codes\\Back-End\\Blogsite\\app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m49061888[39m,
+      heapTotal: [33m31625216[39m,
+      heapUsed: [33m16664256[39m,
+      external: [33m19624179[39m
+    }
+  },
+  os: { loadavg: [ [33m0[39m, [33m0[39m, [33m0[39m ], uptime: [33m475287[39m },
+  trace: [
+    {
+      column: [33m15[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module._resolveFilename'[39m,
+      line: [33m772[39m,
+      method: [32m'_resolveFilename'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m27[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module._load'[39m,
+      line: [33m677[39m,
+      method: [32m'_load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m19[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module.require'[39m,
+      line: [33m830[39m,
+      method: [32m'require'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m18[39m,
+      file: [32m'internal/modules/cjs/helpers.js'[39m,
+      function: [32m'require'[39m,
+      line: [33m68[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m23[39m,
+      file: [32m'F:\\Learning\\Video Material\\The Web Developer Bootcamp\\` Web codes\\Back-End\\Blogsite\\app.js'[39m,
+      function: [1mnull[22m,
+      line: [33m119[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m30[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module._compile'[39m,
+      line: [33m936[39m,
+      method: [32m'_compile'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m10[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module._extensions..js'[39m,
+      line: [33m947[39m,
+      method: [32m'.js'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m32[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module.load'[39m,
+      line: [33m790[39m,
+      method: [32m'load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m12[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module._load'[39m,
+      line: [33m703[39m,
+      method: [32m'_load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m10[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module.runMain'[39m,
+      line: [33m999[39m,
+      method: [32m'runMain'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m11[39m,
+      file: [32m'internal/main/run_main_module.js'[39m,
+      function: [1mnull[22m,
+      line: [33m17[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m"Error: Cannot find module 'similarity-score'"[39m,
+    [32m'Require stack:'[39m,
+    [32m'- F:\\Learning\\Video Material\\The Web Developer Bootcamp\\` Web codes\\Back-End\\Blogsite\\app.js'[39m,
+    [32m'    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:772:15)'[39m,
+    [32m'    at Function.Module._load (internal/modules/cjs/loader.js:677:27)'[39m,
+    [32m'    at Module.require (internal/modules/cjs/loader.js:830:19)'[39m,
+    [32m'    at require (internal/modules/cjs/helpers.js:68:18)'[39m,
+    [32m'    at Object.<anonymous> (F:\\Learning\\Video Material\\The Web Developer Bootcamp\\` Web codes\\Back-End\\Blogsite\\app.js:119:23)'[39m,
+    [32m'    at Module._compile (internal/modules/cjs/loader.js:936:30)'[39m,
+    [32m'    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)'[39m,
+    [32m'    at Module.load (internal/modules/cjs/loader.js:790:32)'[39m,
+    [32m'    at Function.Module._load (internal/modules/cjs/loader.js:703:12)'[39m,
+    [32m'    at Function.Module.runMain (internal/modules/cjs/loader.js:999:10)'[39m,
+    [32m'    at internal/main/run_main_module.js:17:11'[39m
+  ]
+}
+[31merror[39m: [Helper] uncaughtException: Cannot find module 'similarity-score'
+Require stack:
+- F:\Learning\Video Material\The Web Developer Bootcamp\` Web codes\Back-End\Blogsite\app.js 
+{
+  date: [32m'Wed Dec 23 2020 20:35:40 GMT+0530 (India Standard Time)'[39m,
+  process: {
+    pid: [33m8796[39m,
+    uid: [1mnull[22m,
+    gid: [1mnull[22m,
+    cwd: [32m'F:\\Learning\\Video Material\\The Web Developer Bootcamp\\` Web codes\\Back-End\\Blogsite'[39m,
+    execPath: [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+    version: [32m'v12.9.0'[39m,
+    argv: [
+      [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+      [32m'F:\\Learning\\Video Material\\The Web Developer Bootcamp\\` Web codes\\Back-End\\Blogsite\\app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m49897472[39m,
+      heapTotal: [33m31625216[39m,
+      heapUsed: [33m16914400[39m,
+      external: [33m19624235[39m
+    }
+  },
+  os: { loadavg: [ [33m0[39m, [33m0[39m, [33m0[39m ], uptime: [33m475287[39m },
+  trace: [
+    {
+      column: [33m15[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module._resolveFilename'[39m,
+      line: [33m772[39m,
+      method: [32m'_resolveFilename'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m27[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module._load'[39m,
+      line: [33m677[39m,
+      method: [32m'_load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m19[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module.require'[39m,
+      line: [33m830[39m,
+      method: [32m'require'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m18[39m,
+      file: [32m'internal/modules/cjs/helpers.js'[39m,
+      function: [32m'require'[39m,
+      line: [33m68[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m23[39m,
+      file: [32m'F:\\Learning\\Video Material\\The Web Developer Bootcamp\\` Web codes\\Back-End\\Blogsite\\app.js'[39m,
+      function: [1mnull[22m,
+      line: [33m119[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m30[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module._compile'[39m,
+      line: [33m936[39m,
+      method: [32m'_compile'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m10[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module._extensions..js'[39m,
+      line: [33m947[39m,
+      method: [32m'.js'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m32[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module.load'[39m,
+      line: [33m790[39m,
+      method: [32m'load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m12[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module._load'[39m,
+      line: [33m703[39m,
+      method: [32m'_load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m10[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module.runMain'[39m,
+      line: [33m999[39m,
+      method: [32m'runMain'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m11[39m,
+      file: [32m'internal/main/run_main_module.js'[39m,
+      function: [1mnull[22m,
+      line: [33m17[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m"Error: Cannot find module 'similarity-score'"[39m,
+    [32m'Require stack:'[39m,
+    [32m'- F:\\Learning\\Video Material\\The Web Developer Bootcamp\\` Web codes\\Back-End\\Blogsite\\app.js'[39m,
+    [32m'    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:772:15)'[39m,
+    [32m'    at Function.Module._load (internal/modules/cjs/loader.js:677:27)'[39m,
+    [32m'    at Module.require (internal/modules/cjs/loader.js:830:19)'[39m,
+    [32m'    at require (internal/modules/cjs/helpers.js:68:18)'[39m,
+    [32m'    at Object.<anonymous> (F:\\Learning\\Video Material\\The Web Developer Bootcamp\\` Web codes\\Back-End\\Blogsite\\app.js:119:23)'[39m,
+    [32m'    at Module._compile (internal/modules/cjs/loader.js:936:30)'[39m,
+    [32m'    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)'[39m,
+    [32m'    at Module.load (internal/modules/cjs/loader.js:790:32)'[39m,
+    [32m'    at Function.Module._load (internal/modules/cjs/loader.js:703:12)'[39m,
+    [32m'    at Function.Module.runMain (internal/modules/cjs/loader.js:999:10)'[39m,
+    [32m'    at internal/main/run_main_module.js:17:11'[39m
+  ]
+}
+[31merror[39m: [SbEvent] uncaughtException: Cannot find module 'similarity-score'
+Require stack:
+- F:\Learning\Video Material\The Web Developer Bootcamp\` Web codes\Back-End\Blogsite\app.js 
+{
+  date: [32m'Wed Dec 23 2020 20:35:40 GMT+0530 (India Standard Time)'[39m,
+  process: {
+    pid: [33m8796[39m,
+    uid: [1mnull[22m,
+    gid: [1mnull[22m,
+    cwd: [32m'F:\\Learning\\Video Material\\The Web Developer Bootcamp\\` Web codes\\Back-End\\Blogsite'[39m,
+    execPath: [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+    version: [32m'v12.9.0'[39m,
+    argv: [
+      [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+      [32m'F:\\Learning\\Video Material\\The Web Developer Bootcamp\\` Web codes\\Back-End\\Blogsite\\app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m49901568[39m,
+      heapTotal: [33m31625216[39m,
+      heapUsed: [33m17052736[39m,
+      external: [33m19624235[39m
+    }
+  },
+  os: { loadavg: [ [33m0[39m, [33m0[39m, [33m0[39m ], uptime: [33m475287[39m },
+  trace: [
+    {
+      column: [33m15[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module._resolveFilename'[39m,
+      line: [33m772[39m,
+      method: [32m'_resolveFilename'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m27[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module._load'[39m,
+      line: [33m677[39m,
+      method: [32m'_load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m19[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module.require'[39m,
+      line: [33m830[39m,
+      method: [32m'require'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m18[39m,
+      file: [32m'internal/modules/cjs/helpers.js'[39m,
+      function: [32m'require'[39m,
+      line: [33m68[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m23[39m,
+      file: [32m'F:\\Learning\\Video Material\\The Web Developer Bootcamp\\` Web codes\\Back-End\\Blogsite\\app.js'[39m,
+      function: [1mnull[22m,
+      line: [33m119[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m30[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module._compile'[39m,
+      line: [33m936[39m,
+      method: [32m'_compile'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m10[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module._extensions..js'[39m,
+      line: [33m947[39m,
+      method: [32m'.js'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m32[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module.load'[39m,
+      line: [33m790[39m,
+      method: [32m'load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m12[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module._load'[39m,
+      line: [33m703[39m,
+      method: [32m'_load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m10[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module.runMain'[39m,
+      line: [33m999[39m,
+      method: [32m'runMain'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m11[39m,
+      file: [32m'internal/main/run_main_module.js'[39m,
+      function: [1mnull[22m,
+      line: [33m17[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m"Error: Cannot find module 'similarity-score'"[39m,
+    [32m'Require stack:'[39m,
+    [32m'- F:\\Learning\\Video Material\\The Web Developer Bootcamp\\` Web codes\\Back-End\\Blogsite\\app.js'[39m,
+    [32m'    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:772:15)'[39m,
+    [32m'    at Function.Module._load (internal/modules/cjs/loader.js:677:27)'[39m,
+    [32m'    at Module.require (internal/modules/cjs/loader.js:830:19)'[39m,
+    [32m'    at require (internal/modules/cjs/helpers.js:68:18)'[39m,
+    [32m'    at Object.<anonymous> (F:\\Learning\\Video Material\\The Web Developer Bootcamp\\` Web codes\\Back-End\\Blogsite\\app.js:119:23)'[39m,
+    [32m'    at Module._compile (internal/modules/cjs/loader.js:936:30)'[39m,
+    [32m'    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)'[39m,
+    [32m'    at Module.load (internal/modules/cjs/loader.js:790:32)'[39m,
+    [32m'    at Function.Module._load (internal/modules/cjs/loader.js:703:12)'[39m,
+    [32m'    at Function.Module.runMain (internal/modules/cjs/loader.js:999:10)'[39m,
+    [32m'    at internal/main/run_main_module.js:17:11'[39m
+  ]
+}
+[31merror[39m: [ExitHandler] uncaughtException: Cannot find module 'similarity-score'
+Require stack:
+- F:\Learning\Video Material\The Web Developer Bootcamp\` Web codes\Back-End\Blogsite\app.js 
+{
+  date: [32m'Wed Dec 23 2020 20:35:40 GMT+0530 (India Standard Time)'[39m,
+  process: {
+    pid: [33m8796[39m,
+    uid: [1mnull[22m,
+    gid: [1mnull[22m,
+    cwd: [32m'F:\\Learning\\Video Material\\The Web Developer Bootcamp\\` Web codes\\Back-End\\Blogsite'[39m,
+    execPath: [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+    version: [32m'v12.9.0'[39m,
+    argv: [
+      [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+      [32m'F:\\Learning\\Video Material\\The Web Developer Bootcamp\\` Web codes\\Back-End\\Blogsite\\app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m49901568[39m,
+      heapTotal: [33m31625216[39m,
+      heapUsed: [33m17184880[39m,
+      external: [33m19624235[39m
+    }
+  },
+  os: { loadavg: [ [33m0[39m, [33m0[39m, [33m0[39m ], uptime: [33m475287[39m },
+  trace: [
+    {
+      column: [33m15[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module._resolveFilename'[39m,
+      line: [33m772[39m,
+      method: [32m'_resolveFilename'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m27[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module._load'[39m,
+      line: [33m677[39m,
+      method: [32m'_load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m19[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module.require'[39m,
+      line: [33m830[39m,
+      method: [32m'require'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m18[39m,
+      file: [32m'internal/modules/cjs/helpers.js'[39m,
+      function: [32m'require'[39m,
+      line: [33m68[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m23[39m,
+      file: [32m'F:\\Learning\\Video Material\\The Web Developer Bootcamp\\` Web codes\\Back-End\\Blogsite\\app.js'[39m,
+      function: [1mnull[22m,
+      line: [33m119[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m30[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module._compile'[39m,
+      line: [33m936[39m,
+      method: [32m'_compile'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m10[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module._extensions..js'[39m,
+      line: [33m947[39m,
+      method: [32m'.js'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m32[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module.load'[39m,
+      line: [33m790[39m,
+      method: [32m'load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m12[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module._load'[39m,
+      line: [33m703[39m,
+      method: [32m'_load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m10[39m,
+      file: [32m'internal/modules/cjs/loader.js'[39m,
+      function: [32m'Module.runMain'[39m,
+      line: [33m999[39m,
+      method: [32m'runMain'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m11[39m,
+      file: [32m'internal/main/run_main_module.js'[39m,
+      function: [1mnull[22m,
+      line: [33m17[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m"Error: Cannot find module 'similarity-score'"[39m,
+    [32m'Require stack:'[39m,
+    [32m'- F:\\Learning\\Video Material\\The Web Developer Bootcamp\\` Web codes\\Back-End\\Blogsite\\app.js'[39m,
+    [32m'    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:772:15)'[39m,
+    [32m'    at Function.Module._load (internal/modules/cjs/loader.js:677:27)'[39m,
+    [32m'    at Module.require (internal/modules/cjs/loader.js:830:19)'[39m,
+    [32m'    at require (internal/modules/cjs/helpers.js:68:18)'[39m,
+    [32m'    at Object.<anonymous> (F:\\Learning\\Video Material\\The Web Developer Bootcamp\\` Web codes\\Back-End\\Blogsite\\app.js:119:23)'[39m,
+    [32m'    at Module._compile (internal/modules/cjs/loader.js:936:30)'[39m,
+    [32m'    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)'[39m,
+    [32m'    at Module.load (internal/modules/cjs/loader.js:790:32)'[39m,
+    [32m'    at Function.Module._load (internal/modules/cjs/loader.js:703:12)'[39m,
+    [32m'    at Function.Module.runMain (internal/modules/cjs/loader.js:999:10)'[39m,
+    [32m'    at internal/main/run_main_module.js:17:11'[39m
+  ]
+}
